@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+	<PropertyGroup>
+	    <OutputType>WinExe</OutputType>
+	    <TargetFramework>net9.0-windows</TargetFramework>
+	    <Nullable>enable</Nullable>
+	    <UseWindowsForms>true</UseWindowsForms>
+	    <UseWPF>true</UseWPF>
+	    <ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Model\**" />
+    <EmbeddedResource Remove="Model\**" />
+    <None Remove="Model\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="resources\GeoLite2-Country.mmdb" />
+    <None Remove="resources\sample_logs_no_status.csv" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="resources\GeoLite2-Country.mmdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\sample_logs_no_status.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="33.1.0" />
+    <PackageReference Include="LiveCharts.WinForms" Version="0.9.7.1" />
+    <PackageReference Include="LiveCharts.Wpf" Version="0.9.7" />
+    <PackageReference Include="MaxMind.GeoIP2" Version="5.3.0" />
+  </ItemGroup>
+
+</Project>

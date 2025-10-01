@@ -1,0 +1,179 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "AnomaliesDetector/1.0.0": {
+        "dependencies": {
+          "CsvHelper": "33.1.0",
+          "LiveCharts.WinForms": "0.9.7.1",
+          "LiveCharts.Wpf": "0.9.7",
+          "MaxMind.GeoIP2": "5.3.0"
+        },
+        "runtime": {
+          "AnomaliesDetector.dll": {}
+        }
+      },
+      "CsvHelper/33.1.0": {
+        "runtime": {
+          "lib/net9.0/CsvHelper.dll": {
+            "assemblyVersion": "33.0.0.0",
+            "fileVersion": "33.1.0.26"
+          }
+        }
+      },
+      "LiveCharts/0.9.7": {
+        "runtime": {
+          "lib/net45/LiveCharts.dll": {
+            "assemblyVersion": "0.9.7.0",
+            "fileVersion": "0.9.7.0"
+          }
+        }
+      },
+      "LiveCharts.WinForms/0.9.7.1": {
+        "dependencies": {
+          "LiveCharts": "0.9.7",
+          "LiveCharts.Wpf": "0.9.7"
+        },
+        "runtime": {
+          "lib/net45/LiveCharts.WinForms.dll": {
+            "assemblyVersion": "0.9.7.1",
+            "fileVersion": "0.9.7.1"
+          }
+        }
+      },
+      "LiveCharts.Wpf/0.9.7": {
+        "dependencies": {
+          "LiveCharts": "0.9.7"
+        },
+        "runtime": {
+          "lib/net45/LiveCharts.Wpf.dll": {
+            "assemblyVersion": "0.9.7.0",
+            "fileVersion": "0.9.7.0"
+          }
+        }
+      },
+      "MaxMind.Db/4.2.0": {
+        "runtime": {
+          "lib/net9.0/MaxMind.Db.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "MaxMind.GeoIP2/5.3.0": {
+        "dependencies": {
+          "MaxMind.Db": "4.2.0",
+          "Microsoft.Extensions.Options": "9.0.0"
+        },
+        "runtime": {
+          "lib/net9.0/MaxMind.GeoIP2.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0": {
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.52809"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options/9.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Primitives": "9.0.0"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.Options.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.52809"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/9.0.0": {
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.52809"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AnomaliesDetector/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CsvHelper/33.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kqfTOZGrn7NarNeXgjh86JcpTHUoeQDMB8t9NVa/ZtlSYiV1rxfRnQ49WaJsob4AiGrbK0XDzpyKkBwai4F8eg==",
+      "path": "csvhelper/33.1.0",
+      "hashPath": "csvhelper.33.1.0.nupkg.sha512"
+    },
+    "LiveCharts/0.9.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-p4xyBrUaNNfkWZSNsIle0r51cyVyFg0Yi0uBRZM5GQtdFiA/7guZHlffFyNUILIdux10Ch2hUaJpcZENVU9aaQ==",
+      "path": "livecharts/0.9.7",
+      "hashPath": "livecharts.0.9.7.nupkg.sha512"
+    },
+    "LiveCharts.WinForms/0.9.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eCBsVaxpUKHLpvlJEAhm+BQDWltnzc4VFhM4k4gJ+MsqyGQ/aq/AOWqTWx8OSJ0H52mDTJ1tQjErTYWeikLEOA==",
+      "path": "livecharts.winforms/0.9.7.1",
+      "hashPath": "livecharts.winforms.0.9.7.1.nupkg.sha512"
+    },
+    "LiveCharts.Wpf/0.9.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lv6YZoK0B4yWykMq5b9grZXtIbTj+OWu4sVN9GDpdgV6zffu64m4d5CW8KSjfSl9rB8VU649x1NZvhoU67hCDg==",
+      "path": "livecharts.wpf/0.9.7",
+      "hashPath": "livecharts.wpf.0.9.7.nupkg.sha512"
+    },
+    "MaxMind.Db/4.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gXrJSN5zko+b7hYD5ZMf3J5gSx1GWbKxr4/in5byzL81Qi9vB7lbXJUByZyrcQArSg9iiojwhPRzyiWpH7Raxg==",
+      "path": "maxmind.db/4.2.0",
+      "hashPath": "maxmind.db.4.2.0.nupkg.sha512"
+    },
+    "MaxMind.GeoIP2/5.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CDCpMqTZRf2+VOQoUwSyxSw9b7rJkwMY8YIKTMBqzTEAP6OyJEiI7VuG+PqcgYvVSV1ERRKX2c03iy7dGRGPGw==",
+      "path": "maxmind.geoip2/5.3.0",
+      "hashPath": "maxmind.geoip2.5.3.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+6f2qv2a3dLwd5w6JanPIPs47CxRbnk+ZocMJUhv9NxP88VlOcJYZs9jY+MYSjxvady08bUZn6qgiNh7DadGgg==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/9.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/9.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-y2146b3jrPI3Q0lokKXdKLpmXqakYbDIPDV6r3M8SqvSf45WwOTzkyfDpxnZXJsJQEpAsAqjUq5Pu8RCJMjubg==",
+      "path": "microsoft.extensions.options/9.0.0",
+      "hashPath": "microsoft.extensions.options.9.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/9.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-N3qEBzmLMYiASUlKxxFIISP4AiwuPTHF5uCh+2CWSwwzAJiIYx0kBJsS30cp1nvhSySFAVi30jecD307jV+8Kg==",
+      "path": "microsoft.extensions.primitives/9.0.0",
+      "hashPath": "microsoft.extensions.primitives.9.0.0.nupkg.sha512"
+    }
+  }
+}

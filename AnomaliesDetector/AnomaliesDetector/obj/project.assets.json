@@ -1,0 +1,510 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0-windows7.0": {
+      "CsvHelper/33.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/CsvHelper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/CsvHelper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "LiveCharts/0.9.7": {
+        "type": "package",
+        "compile": {
+          "lib/net45/LiveCharts.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/LiveCharts.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "LiveCharts.WinForms/0.9.7.1": {
+        "type": "package",
+        "dependencies": {
+          "LiveCharts": "0.9.7",
+          "LiveCharts.Wpf": "0.9.7"
+        },
+        "compile": {
+          "lib/net45/LiveCharts.WinForms.dll": {
+            "related": ".pdb;.XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/LiveCharts.WinForms.dll": {
+            "related": ".pdb;.XML"
+          }
+        }
+      },
+      "LiveCharts.Wpf/0.9.7": {
+        "type": "package",
+        "dependencies": {
+          "LiveCharts": "0.9.7"
+        },
+        "compile": {
+          "lib/net45/LiveCharts.Wpf.dll": {
+            "related": ".pdb;.XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/LiveCharts.Wpf.dll": {
+            "related": ".pdb;.XML"
+          }
+        }
+      },
+      "MaxMind.Db/4.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/MaxMind.Db.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/MaxMind.Db.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MaxMind.GeoIP2/5.3.0": {
+        "type": "package",
+        "dependencies": {
+          "MaxMind.Db": "4.2.0",
+          "Microsoft.Extensions.Options": "9.0.0"
+        },
+        "compile": {
+          "lib/net9.0/MaxMind.GeoIP2.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/MaxMind.GeoIP2.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Options/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Primitives": "9.0.0"
+        },
+        "compile": {
+          "lib/net9.0/Microsoft.Extensions.Options.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.Options.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/Microsoft.Extensions.Options.targets": {}
+        }
+      },
+      "Microsoft.Extensions.Primitives/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/Microsoft.Extensions.Primitives.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.Primitives.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CsvHelper/33.1.0": {
+      "sha512": "kqfTOZGrn7NarNeXgjh86JcpTHUoeQDMB8t9NVa/ZtlSYiV1rxfRnQ49WaJsob4AiGrbK0XDzpyKkBwai4F8eg==",
+      "type": "package",
+      "path": "csvhelper/33.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "csvhelper.33.1.0.nupkg.sha512",
+        "csvhelper.nuspec",
+        "lib/net462/CsvHelper.dll",
+        "lib/net462/CsvHelper.xml",
+        "lib/net47/CsvHelper.dll",
+        "lib/net47/CsvHelper.xml",
+        "lib/net48/CsvHelper.dll",
+        "lib/net48/CsvHelper.xml",
+        "lib/net8.0/CsvHelper.dll",
+        "lib/net8.0/CsvHelper.xml",
+        "lib/net9.0/CsvHelper.dll",
+        "lib/net9.0/CsvHelper.xml",
+        "lib/netstandard2.0/CsvHelper.dll",
+        "lib/netstandard2.0/CsvHelper.xml",
+        "lib/netstandard2.1/CsvHelper.dll",
+        "lib/netstandard2.1/CsvHelper.xml"
+      ]
+    },
+    "LiveCharts/0.9.7": {
+      "sha512": "p4xyBrUaNNfkWZSNsIle0r51cyVyFg0Yi0uBRZM5GQtdFiA/7guZHlffFyNUILIdux10Ch2hUaJpcZENVU9aaQ==",
+      "type": "package",
+      "path": "livecharts/0.9.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/LiveCharts.dll",
+        "lib/net40/LiveCharts.pdb",
+        "lib/net40/LiveCharts.xml",
+        "lib/net45/LiveCharts.dll",
+        "lib/net45/LiveCharts.pdb",
+        "lib/net45/LiveCharts.xml",
+        "lib/portable-net45+win8+wp8/LiveCharts.XML",
+        "lib/portable-net45+win8+wp8/LiveCharts.dll",
+        "lib/portable-net45+win8+wp8/LiveCharts.pdb",
+        "livecharts.0.9.7.nupkg.sha512",
+        "livecharts.nuspec",
+        "readme.txt"
+      ]
+    },
+    "LiveCharts.WinForms/0.9.7.1": {
+      "sha512": "eCBsVaxpUKHLpvlJEAhm+BQDWltnzc4VFhM4k4gJ+MsqyGQ/aq/AOWqTWx8OSJ0H52mDTJ1tQjErTYWeikLEOA==",
+      "type": "package",
+      "path": "livecharts.winforms/0.9.7.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/LiveCharts.WinForms.XML",
+        "lib/net40/LiveCharts.WinForms.dll",
+        "lib/net40/LiveCharts.WinForms.pdb",
+        "lib/net45/LiveCharts.WinForms.XML",
+        "lib/net45/LiveCharts.WinForms.dll",
+        "lib/net45/LiveCharts.WinForms.pdb",
+        "livecharts.winforms.0.9.7.1.nupkg.sha512",
+        "livecharts.winforms.nuspec",
+        "tools/install.ps1"
+      ]
+    },
+    "LiveCharts.Wpf/0.9.7": {
+      "sha512": "lv6YZoK0B4yWykMq5b9grZXtIbTj+OWu4sVN9GDpdgV6zffu64m4d5CW8KSjfSl9rB8VU649x1NZvhoU67hCDg==",
+      "type": "package",
+      "path": "livecharts.wpf/0.9.7",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/LiveCharts.Wpf.XML",
+        "lib/net40/LiveCharts.Wpf.dll",
+        "lib/net40/LiveCharts.Wpf.pdb",
+        "lib/net45/LiveCharts.Wpf.XML",
+        "lib/net45/LiveCharts.Wpf.dll",
+        "lib/net45/LiveCharts.Wpf.pdb",
+        "livecharts.wpf.0.9.7.nupkg.sha512",
+        "livecharts.wpf.nuspec",
+        "tools/install.ps1"
+      ]
+    },
+    "MaxMind.Db/4.2.0": {
+      "sha512": "gXrJSN5zko+b7hYD5ZMf3J5gSx1GWbKxr4/in5byzL81Qi9vB7lbXJUByZyrcQArSg9iiojwhPRzyiWpH7Raxg==",
+      "type": "package",
+      "path": "maxmind.db/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "MaxMind-logo.png",
+        "README.md",
+        "lib/net8.0/MaxMind.Db.dll",
+        "lib/net8.0/MaxMind.Db.xml",
+        "lib/net9.0/MaxMind.Db.dll",
+        "lib/net9.0/MaxMind.Db.xml",
+        "lib/netstandard2.0/MaxMind.Db.dll",
+        "lib/netstandard2.0/MaxMind.Db.xml",
+        "lib/netstandard2.1/MaxMind.Db.dll",
+        "lib/netstandard2.1/MaxMind.Db.xml",
+        "maxmind.db.4.2.0.nupkg.sha512",
+        "maxmind.db.nuspec"
+      ]
+    },
+    "MaxMind.GeoIP2/5.3.0": {
+      "sha512": "CDCpMqTZRf2+VOQoUwSyxSw9b7rJkwMY8YIKTMBqzTEAP6OyJEiI7VuG+PqcgYvVSV1ERRKX2c03iy7dGRGPGw==",
+      "type": "package",
+      "path": "maxmind.geoip2/5.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "MaxMind-logo.png",
+        "README.md",
+        "lib/net8.0/MaxMind.GeoIP2.dll",
+        "lib/net8.0/MaxMind.GeoIP2.xml",
+        "lib/net9.0/MaxMind.GeoIP2.dll",
+        "lib/net9.0/MaxMind.GeoIP2.xml",
+        "lib/netstandard2.0/MaxMind.GeoIP2.dll",
+        "lib/netstandard2.0/MaxMind.GeoIP2.xml",
+        "lib/netstandard2.1/MaxMind.GeoIP2.dll",
+        "lib/netstandard2.1/MaxMind.GeoIP2.xml",
+        "maxmind.geoip2.5.3.0.nupkg.sha512",
+        "maxmind.geoip2.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0": {
+      "sha512": "+6f2qv2a3dLwd5w6JanPIPs47CxRbnk+ZocMJUhv9NxP88VlOcJYZs9jY+MYSjxvady08bUZn6qgiNh7DadGgg==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/9.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Options/9.0.0": {
+      "sha512": "y2146b3jrPI3Q0lokKXdKLpmXqakYbDIPDV6r3M8SqvSf45WwOTzkyfDpxnZXJsJQEpAsAqjUq5Pu8RCJMjubg==",
+      "type": "package",
+      "path": "microsoft.extensions.options/9.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "analyzers/dotnet/roslyn4.4/cs/Microsoft.Extensions.Options.SourceGeneration.dll",
+        "analyzers/dotnet/roslyn4.4/cs/cs/Microsoft.Extensions.Options.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/de/Microsoft.Extensions.Options.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/es/Microsoft.Extensions.Options.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/fr/Microsoft.Extensions.Options.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/it/Microsoft.Extensions.Options.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/ja/Microsoft.Extensions.Options.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/ko/Microsoft.Extensions.Options.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/pl/Microsoft.Extensions.Options.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/pt-BR/Microsoft.Extensions.Options.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/ru/Microsoft.Extensions.Options.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/tr/Microsoft.Extensions.Options.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/zh-Hans/Microsoft.Extensions.Options.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/zh-Hant/Microsoft.Extensions.Options.SourceGeneration.resources.dll",
+        "buildTransitive/net461/Microsoft.Extensions.Options.targets",
+        "buildTransitive/net462/Microsoft.Extensions.Options.targets",
+        "buildTransitive/net8.0/Microsoft.Extensions.Options.targets",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Options.targets",
+        "buildTransitive/netstandard2.0/Microsoft.Extensions.Options.targets",
+        "lib/net462/Microsoft.Extensions.Options.dll",
+        "lib/net462/Microsoft.Extensions.Options.xml",
+        "lib/net8.0/Microsoft.Extensions.Options.dll",
+        "lib/net8.0/Microsoft.Extensions.Options.xml",
+        "lib/net9.0/Microsoft.Extensions.Options.dll",
+        "lib/net9.0/Microsoft.Extensions.Options.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.Options.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.Options.xml",
+        "microsoft.extensions.options.9.0.0.nupkg.sha512",
+        "microsoft.extensions.options.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Primitives/9.0.0": {
+      "sha512": "N3qEBzmLMYiASUlKxxFIISP4AiwuPTHF5uCh+2CWSwwzAJiIYx0kBJsS30cp1nvhSySFAVi30jecD307jV+8Kg==",
+      "type": "package",
+      "path": "microsoft.extensions.primitives/9.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Primitives.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Primitives.targets",
+        "lib/net462/Microsoft.Extensions.Primitives.dll",
+        "lib/net462/Microsoft.Extensions.Primitives.xml",
+        "lib/net8.0/Microsoft.Extensions.Primitives.dll",
+        "lib/net8.0/Microsoft.Extensions.Primitives.xml",
+        "lib/net9.0/Microsoft.Extensions.Primitives.dll",
+        "lib/net9.0/Microsoft.Extensions.Primitives.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
+        "microsoft.extensions.primitives.9.0.0.nupkg.sha512",
+        "microsoft.extensions.primitives.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0-windows7.0": [
+      "CsvHelper >= 33.1.0",
+      "LiveCharts.WinForms >= 0.9.7.1",
+      "LiveCharts.Wpf >= 0.9.7",
+      "MaxMind.GeoIP2 >= 5.3.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\chocl\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\chocl\\source\\repos\\AnomaliesDetector\\AnomaliesDetector\\AnomaliesDetector.csproj",
+      "projectName": "AnomaliesDetector",
+      "projectPath": "C:\\Users\\chocl\\source\\repos\\AnomaliesDetector\\AnomaliesDetector\\AnomaliesDetector.csproj",
+      "packagesPath": "C:\\Users\\chocl\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\chocl\\source\\repos\\AnomaliesDetector\\AnomaliesDetector\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\chocl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0-windows7.0": {
+          "targetAlias": "net9.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
+    },
+    "frameworks": {
+      "net9.0-windows7.0": {
+        "targetAlias": "net9.0-windows",
+        "dependencies": {
+          "CsvHelper": {
+            "target": "Package",
+            "version": "[33.1.0, )"
+          },
+          "LiveCharts.WinForms": {
+            "target": "Package",
+            "version": "[0.9.7.1, )"
+          },
+          "LiveCharts.Wpf": {
+            "target": "Package",
+            "version": "[0.9.7, )"
+          },
+          "MaxMind.GeoIP2": {
+            "target": "Package",
+            "version": "[5.3.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'LiveCharts 0.9.7' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "LiveCharts",
+      "targetGraphs": [
+        "net9.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'LiveCharts.WinForms 0.9.7.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "LiveCharts.WinForms",
+      "targetGraphs": [
+        "net9.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'LiveCharts.Wpf 0.9.7' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "LiveCharts.Wpf",
+      "targetGraphs": [
+        "net9.0-windows7.0"
+      ]
+    }
+  ]
+}
